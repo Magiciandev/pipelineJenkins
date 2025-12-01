@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_NAME = "pipeline-test"
+        PROJECT_NAME = "pipelineJenkins"
         SONARQUBE_URL = "http://sonarqube:9000"
-        SONARQUBE_TOKEN = "sqa_8b3bc3d9dadd0e6b3221285d9e3481748a799219"
-        TARGET_URL = "http://172.23.41.49:5000"
+        SONARQUBE_TOKEN = "sqa_bdf81e05b38411ce741fc590114e5dde2998931f"
+        TARGET_URL = "http://172.26.93.72:5000"
     }
 
     stages {
